@@ -1,0 +1,2 @@
+.site-root { display:flex; min-height:100vh; flex-direction:column; }
+.site-main { flex:1; max-width:1200px; width:100%; margin:24px auto; padding:0 20px; }
