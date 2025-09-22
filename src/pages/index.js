@@ -4,7 +4,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Discover from '../components/Discover';
 import styles from "@/styles/Home.module.css";
 import Layout from '../common/Layout';
-
+import CardList from "@/components/cardList";
+import FeatureCard from "@/components/FeatureCard";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -26,6 +27,8 @@ export default function Home() {
       </Head>
        <Layout>
               <Discover />
+              <FeatureCard/>
+              <CardList/>
           </Layout>
     </>
   );
